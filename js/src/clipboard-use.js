@@ -1,0 +1,3 @@
+// build time:Wed May 05 2021 17:22:59 GMT+0800 (GMT+08:00)
+!function(e,n,a){var t=function(){var e='<button class="btn-copy" data-clipboard-snippet=""><i class="fa fa-clipboard"></i></button>';$(".highlight .code pre").before(e);var n=new ClipboardJS(".btn-copy",{target:function(e){return e.nextElementSibling}});n.on("success",function(e){var n=e.trigger;var a=n.querySelector("i");a.className="fa fa-check";n.onmouseleave=function(n){e.clearSelection();setTimeout(function(){a.className="fa fa-clipboard"},1e3)}})};t()}(window,document);
+//rebuild by neat 
